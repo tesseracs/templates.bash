@@ -1,3 +1,5 @@
 #!/bin/sh
 set -e
-echo "Hello from Tesseracs (Bash template)"
+# shellcheck source=lib.sh
+. "$(dirname "$0")/lib.sh"
+hello "Tesseracs"
