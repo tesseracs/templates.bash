@@ -1,3 +1,3 @@
 #!/bin/sh
 set -e
-sh main.sh
+bash ./bin/main.sh
